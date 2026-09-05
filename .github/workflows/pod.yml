@@ -23,7 +23,7 @@ jobs:
       - uses: google-github-actions/get-gke-credentials@v2
         with:
           cluster_name: mytestingcluster
-          location: asia-south2-a
+          location: us-east1-b
 
       - run: kubectl get nodes
 
